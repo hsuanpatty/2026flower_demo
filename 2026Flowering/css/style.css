@@ -509,6 +509,7 @@ section:nth-last-child {
 	color: var(--irongray);
 	letter-spacing: 0.05rem;
 	line-height: 25px;
+	text-align: left;
 }
 
 .text-start{
