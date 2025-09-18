@@ -1644,6 +1644,7 @@ section:nth-last-child {
 
 	.flower-box-img img {
 		padding-top: 10px;
+		width: 85%;
 	}
 }
 
