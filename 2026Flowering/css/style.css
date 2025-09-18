@@ -628,7 +628,7 @@ section:nth-last-child {
 .chosen-box li {
 	list-style-type: none;
     display: block;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
     position: relative;
 	line-height: 30px;
 	text-indent: 20px;
