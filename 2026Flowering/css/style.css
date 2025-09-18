@@ -665,7 +665,7 @@ section:nth-last-child {
 .travel-title {
 	font:  20px  openhuninn ;
 	color: var(--irongray2);
-    letter-spacing: 1px;
+    letter-spacing: 0.01rem;
     line-height: 30px;
 
 	width: 78%;
@@ -886,9 +886,9 @@ section:nth-last-child {
 .flower-subtitle2 {
 	font:  45px  openhuninn ;
 	color: var(--pinkishgray);
-	width: 250px;
+	width: 240px;
 	height: 62px;
-	background: url("../images/decorate-3.png") bottom no-repeat;
+	background: url("../images/decorate-13.png") bottom no-repeat;
 }
  
 .box-border4 {
