@@ -602,7 +602,7 @@ section:nth-last-child {
 }
 
 .label-pt {
-	padding: 6rem 30px 20px;
+	padding: 6rem 30px 3rem;
 }
 
 .label-area p {
@@ -696,12 +696,11 @@ section:nth-last-child {
  	background-repeat: repeat-x; 
 	background-position: left bottom;
 	height: 10px;
-	padding: 0 0 20px;
 }	
 
 /* 說明 */
 .directions {
-	padding-top: 10px;
+	padding-top: 15px;
 } 
 
 .directions P {
