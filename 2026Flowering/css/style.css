@@ -1710,6 +1710,10 @@ section:nth-last-child {
 	.label-pt {
         padding: 3rem 15px 20px;
     }
+
+	.lavender-box-img img {
+        padding-top: 10px;
+    }
 }
 
 @media (max-width: 545.98px) {
