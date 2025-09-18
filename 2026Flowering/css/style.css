@@ -1435,6 +1435,20 @@ section:nth-last-child {
 	.Cherry-box {
     	padding-top: 100px;
 	}
+
+	.px-20 {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.tourist p {
+		text-align: center;
+		justify-content: center;
+    }
+
+	.lavender-pt {
+    	padding: 6rem 0 3rem;
+	}
 }
 
 
@@ -1646,7 +1660,14 @@ section:nth-last-child {
 		padding-top: 10px;
 		width: 85%;
 	}
+
+	.px-20 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
 }
+
 
 
 @media (max-width: 575.98px) { 
