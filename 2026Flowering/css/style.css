@@ -1416,7 +1416,7 @@ section:nth-last-child {
 		margin: 20px auto;
 	}
 
-	.flex-sm {	
+	.flex-sm{	
         padding: 8px 10px 0;
     }
 
@@ -1430,6 +1430,10 @@ section:nth-last-child {
 
 	.flower-flex3 {
         padding: 40px 20px 0;
+    }
+
+	.flower-flex2 {
+        padding: 40px 95px 0;
     }
 
 	.Cherry2-box {
@@ -1453,6 +1457,11 @@ section:nth-last-child {
 	.lavender-pt {
     	padding: 8rem 0 4rem;
 	}
+
+	.flex-sm-2 {
+        padding: 20px 10px 0;		
+    }
+
 }
 
 
@@ -1967,7 +1976,7 @@ section:nth-last-child {
   }
   .contact-box p {
     margin-bottom: 2px;
-  }
+  }https://github.com/hsuanpatty/2026flower_demo/blob/main/2026Flowering/css/style.css
 }
 
 
