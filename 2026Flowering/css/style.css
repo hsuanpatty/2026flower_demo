@@ -1611,12 +1611,12 @@ section:nth-last-child {
 	}
 	
 	.Cherry-banner-box .Cherry-banner-title {
-    	top: 104%;
-    	left: 50%;
+    	top: 163%;
+        left: 40%;
 	}
 
 	.Cherry-banner-title img {
-   	 	width: 100%;
+   	 	width: 132%;
 	}
 
 	.flower-subtitle {
@@ -1717,7 +1717,7 @@ section:nth-last-child {
     }
 
 	.Cherry-box {
-    	padding: 70px 0 0;
+    	padding: 185px 0 0;
 	}
 
 	.Cherry-box-img .img-w {
@@ -1773,6 +1773,15 @@ section:nth-last-child {
   		padding-top: 10px !important;
 		padding-bottom: 10px !important;
 	}
+
+	.lavender-pt { 
+		padding-top: 180px;
+	}
+
+	.decorate-pt {
+    	padding-top: 1rem;
+	}
+
 
 }
 
