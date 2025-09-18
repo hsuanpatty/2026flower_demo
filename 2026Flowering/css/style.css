@@ -1528,7 +1528,8 @@ section:nth-last-child {
     }
 
 	.directions {
-    	padding-top: 30px;
+    	padding-top: 15px;
+		padding-bottom: 15px;
 	}
 
 	.decorate-w {
