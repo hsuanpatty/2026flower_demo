@@ -230,6 +230,12 @@ a {
 	padding-bottom: 25px !important;
 }
 
+.py-25-sm {
+  	padding-top: 25px !important;
+	padding-bottom: 25px !important;
+}
+
+
 
 .py-80 {
   	padding-top: 80px !important;
@@ -1762,6 +1768,12 @@ section:nth-last-child {
 	.tourist2-content {
     	width: 70%;
 	}
+
+	.py-25-sm {
+  		padding-top: 10px !important;
+		padding-bottom: 10px !important;
+	}
+
 }
 
 @media (max-width: 545.98px) {
