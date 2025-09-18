@@ -557,11 +557,27 @@ section:nth-last-child {
 	overflow: hidden;
 }
 
+.tourist-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tourist-flex .arrow {
+	  transform:rotate(90deg);
+	  margin-left: 20px;
+}
+
+.tourist-flex .arrow-2 {
+	  transform:rotate(-90deg);
+	  margin-right: 20px;
+}
+
+
 /* 精選行程 */
 .chosen-box {
 	position: relative;
 	background-color: rgba(255, 255, 255, 0.5);
-	padding: 20px 30px;
 	border-radius: 15px;
 
 	width: 80%;
@@ -584,7 +600,7 @@ section:nth-last-child {
 }
 
 .label-pt {
-	padding: 6rem 0 0;
+	padding: 6rem 30px 20px;
 }
 
 .label-area p {
@@ -763,7 +779,7 @@ section:nth-last-child {
 }
 
 .Cherry-box-img img {
-	width: 80%;
+	width: 90%;
 	margin: auto;
 }
 
@@ -790,7 +806,7 @@ section:nth-last-child {
     border: 3px dashed var(--purple);
     border-radius: 25px;
     background: rgba(255, 255, 255, 0.6);
-    margin: 20px auto 20px 40px;
+    margin: 20px auto 20px 0;
 }
 
 .tourist3-content {
@@ -800,7 +816,7 @@ section:nth-last-child {
     border: 3px dashed var(--purple);
     border-radius: 25px;
     background: rgba(255, 255, 255, 0.6);
-    margin: 20px 40px 20px auto;
+    margin: 20px 0 20px auto;
 }
 
 
@@ -833,7 +849,7 @@ section:nth-last-child {
 }
 
 .Cherry-box-img .img-w {
-	width: 85%;
+	width: 100%;
 	margin: auto;
 }
 
@@ -1053,13 +1069,13 @@ section:nth-last-child {
 @media (min-width: 992px) {
 	.flower-box-content{
     	flex: 0 0 auto;
-    	width: 42.66666667%;
+    	width: 45%;
     	margin: auto;
   	}
 
 	.flower-box-img{
     	flex: 0 0 auto;
-    	width: 48.66666667%;
+    	width:48%;
     	margin: auto;
   	}
 
@@ -1072,7 +1088,7 @@ section:nth-last-child {
 	}
 
 	.flower-flex2 {
-		padding: 40px 45px 0;
+		padding: 40px 115px 0;
 	}
 
 	.lavender-box{
@@ -1111,6 +1127,7 @@ section:nth-last-child {
 }
 
 @media (min-width: 1200px) { 
+	
 	.button-flower {
   		width: 190px;
 		height: 110px;
@@ -1147,17 +1164,25 @@ section:nth-last-child {
     	margin-top: -70px;
 	}
 
+	.flower-box-content{
+    	flex: 0 0 auto;
+    	width: 42.66666667%;
+    	margin: auto;
+  	}
+
+	.flower-box-img{
+    	flex: 0 0 auto;
+    	width: 48.66666667%;
+    	margin: auto;
+  	}
+
 	.flower-box-img img{
 		width: 88%;
 	}
+	
 
 	.decorate-pt {
 		padding-top: 1rem;
-	}
-
-	.px-80 {
-		padding-left: 80px;
-		padding-right: 80px;
 	}
 
 	.Cherry-banner-img {
@@ -1169,13 +1194,36 @@ section:nth-last-child {
 	}
 
 	.flower-flex3 {
-		padding: 40px 125px 0;
+		padding: 40px 65px 0;
 	}
 
 	.flower-date {
     	width: 334px;
 	}
+
+	.px-100 {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+	.px-70 {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+
+	.tourist p {
+		text-align: center;
+	}
 }
+
+@media (min-width: 1600px) { 
+	
+	.px-70 {
+		padding-left: 90px;
+		padding-right: 90px;
+	}
+}
+
 
 /* max */
 
@@ -1237,13 +1285,17 @@ section:nth-last-child {
     	padding: 0;
 		display: flex;
         align-items: end;
-		justify-content: center;
 		height: 30px;
 	}
 
 	.tourist3-content {
     	margin: 20px 80px 20px auto;
 	}
+
+	.chosen-box {
+    	width: 100%;
+	}
+
 }
 
 @media (max-width: 1199.98px) { 
@@ -1314,7 +1366,7 @@ section:nth-last-child {
 	}
 
 	.label-pt {
-   		padding: 5rem 0 0;
+   		padding: 5rem 10px 20px;
 	}
 
 	.Cherry-box-img img {
@@ -1326,7 +1378,7 @@ section:nth-last-child {
     }
 
 	.chosen-box {
-    	margin: 130px auto 50px;
+    	margin: 90px auto 50px;
 	}
 
 	.lavender-box-img .lavender-w {
@@ -1353,6 +1405,35 @@ section:nth-last-child {
 
 	.lupine-box {
 		padding-bottom: 20px;
+	}
+
+	.tourist-content,
+	.tourist3-content  {
+		margin: 20px auto;
+	}
+
+	.flex-sm {	
+        padding: 8px 10px 0;
+    }
+
+	.flower-box-img img {
+    	width: 95%;
+	}
+
+	.flower-title {
+    	width: 80%;
+	}
+
+	.flower-flex3 {
+        padding: 40px 20px 0;
+    }
+
+	.Cherry2-box {
+    	padding-top: 0;
+	}
+
+	.Cherry-box {
+    	padding-top: 100px;
 	}
 }
 
@@ -1408,21 +1489,16 @@ section:nth-last-child {
 	}
 
 	.chosen-box {
-		width: 90%;
+		width: 100%;
     	margin: 100px auto 40px;
+	}
+
+	.label-pt {
 		padding: 20px 15px;
 	}
 
 	.Cherry-box {
         padding: 110px 55px 0;
-    }
-
-	.Cherry-box-img img {
-        width: 75%;
-    }
-
-	.Cherry-box-img .img-w {
-        width: 70%;
     }
 
 	.directions {
@@ -1467,10 +1543,11 @@ section:nth-last-child {
 
 	.lavender-box-img img {
     	width: 75%;
+		padding-top: 50px;
 	}
 
 	.lavender-box-img .lavender-w {
-		width: 78%;
+		width: 100%;
 	}
 
 	.flower-title2 {
@@ -1519,10 +1596,55 @@ section:nth-last-child {
 	}
 
 	.flower-title {
-    width: 65%;
-    text-align: left;
-}
+    	width: 65%;
+    	text-align: left;
+	}
 
+	.tourist-flex {
+		display: block;
+	}
+
+	.tourist-flex .arrow {
+		margin: auto;
+		transform: rotate(180deg);
+	}
+
+	.tourist-flex .arrow-2 {
+		margin: 20px auto 0; 
+		transform: rotate(180deg);
+	}
+
+	.tourist-flex .arrow-m {
+		margin: 20px auto 0; 
+	}
+
+	.travel-img img {
+    	width: 100%;
+	}
+
+	.chosen-box .travel-img {
+        left: 50%;
+    }
+
+	.Cherry-banner-img {
+        width: 100%;
+    }
+
+	.Cherry-box-img img {
+        width: 100%;
+    }
+
+	.Cherry-box-img .img-w {
+        width: 90%;
+    }
+
+	.Cherry2-box {
+        padding-top: 20px;
+    }
+
+	.flower-box-img img {
+		padding-top: 10px;
+	}
 }
 
 
@@ -1553,7 +1675,7 @@ section:nth-last-child {
     }
 
 	 .chosen-box {
-		width: 80%;
+		width: 95%;
         margin: 60px auto 40px;
     }
 
@@ -1576,6 +1698,18 @@ section:nth-last-child {
 	.flower-title {
 		width: 75%;
 	}
+
+	.Cherry-box-img img {
+        width: 75%;
+    }
+
+	.lavender-box-img .lavender-w {
+		width: 78%;
+	}
+
+	.label-pt {
+        padding: 3rem 15px 20px;
+    }
 }
 
 @media (max-width: 545.98px) {
@@ -1583,9 +1717,6 @@ section:nth-last-child {
         margin-top: 30px;
     }
 
-	.label-pt {
-        padding: 3rem 0 0;
-    }
 }
 
 
