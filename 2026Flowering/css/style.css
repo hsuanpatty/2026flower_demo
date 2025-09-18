@@ -1385,11 +1385,6 @@ section:nth-last-child {
     	width: 80%;
 	}
 
-	/* .lavender-box .tourist p,
-	.Cherry-box-content .tourist p { 
-		justify-content: center;
-	} */
-
 	.flower-title2 {
     	width: 50%;
 	}
@@ -1743,6 +1738,13 @@ section:nth-last-child {
         margin-top: 30px;
     }
 
+	.label-pt {
+        padding: 5rem 15px 20px;
+    }
+
+	.label-area p {
+    	font: 20px openhuninn;
+	}
 }
 
 
